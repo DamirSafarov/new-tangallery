@@ -188,6 +188,7 @@ body {
 .header-details {
   display: -webkit-box;
   display: -ms-flexbox;
+  align-items: center;
   display: flex;
   grid-gap: 40px;
 }
@@ -282,6 +283,7 @@ body {
 .select {
   position: relative;
   z-index: 999;
+  margin-bottom: auto;
 }
 
 .select .select__item {
